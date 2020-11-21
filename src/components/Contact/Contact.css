@@ -1,0 +1,14 @@
+.contact button {
+    background-image: linear-gradient(60deg, #0df1cb, #0090b4);
+    border: none;
+    outline: none;
+    color: white;
+}
+.contact input{
+    box-shadow: 0px 0px 10px 5px #e1fffa;
+    border: none;
+}
+.contact button:hover{
+    background-image: linear-gradient(150deg, #0df1cb, #0090b4);
+    color: rgb(126, 61, 0);
+}

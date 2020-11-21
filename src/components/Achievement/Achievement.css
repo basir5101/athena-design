@@ -1,0 +1,37 @@
+.achievement{
+    color: gray;
+}
+.achievement h1{
+    color: black;
+}
+.achievement h3{
+    font-weight: 800;
+    font-size: 40px;
+}
+.achievement .clients, .completed{
+    transition: all 0.2s;
+    border-radius: 0px 70px;
+    box-shadow: 0px 0px 10px 10px #e4feff;
+    overflow: hidden;
+}
+.achievement .clients p, .completed p, .achievement .minds p, .running p{
+    font-size: 18px;
+}
+.achievement .minds, .running{
+    border-radius: 70px 0px;
+    box-shadow: 0px 0px 10px 10px #e4feff;
+}
+
+.achievement .clients:hover, .completed:hover{
+    background-image: linear-gradient(45deg, #0090b4, rgb(13, 241, 203));
+    border-radius: 0px 70px;
+    color: white;
+    transition: 0.2s;
+}
+
+.achievement .minds:hover, .running:hover{
+    background-image: linear-gradient(45deg, #0090b4, rgb(13, 241, 203));
+    border-radius: 70px 0px;
+    color: white;
+    transition: 0.2s;
+}

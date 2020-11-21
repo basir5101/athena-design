@@ -1,0 +1,15 @@
+.navbar{
+   
+}
+.btn-custom {
+    color:#fff;
+    background: linear-gradient(45deg, rgb(13, 241, 203), #66cfff);
+    border-radius: 27px 5px;
+
+}
+.navbar-brand img {
+    height: 80px;
+}
+.toggle-button:hover{
+    transform: rotate(45deg);
+}
